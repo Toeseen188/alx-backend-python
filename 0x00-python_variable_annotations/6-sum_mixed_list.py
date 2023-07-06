@@ -3,7 +3,7 @@ import typing
 """
 a function that takes a list of int an and float
 """
-Mxd_lst = typing.List[float]
+Mxd_lst = typing.List[any]
 
 
 def sum_mixed_list(mxd_lst: Mxd_lst) -> float:

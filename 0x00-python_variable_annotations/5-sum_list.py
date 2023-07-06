@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-import typing
+from typing import List
 """
 a function that accept a list of float
 and return the sum
 """
-Input_list = typing.List[float]
+Input_list = List[float]
 
 
 def sum_list(input_list: Input_list) -> float:

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-import typing
 """
 this module contain a function that
 takes a str 'k' and int/float 'v' as arguments
 and return a tuple
 """
+import typing
 
 Tuple_ = typing.Tuple[str, float]
 

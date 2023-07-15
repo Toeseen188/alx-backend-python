@@ -19,8 +19,5 @@ async def async_comprehension() -> List:
     collect 10 random number from async_generator
     then return it
     """
-    result = []
 
-    async for i in async_generator():
-        result.append(i)
-    return result
+    return [i async for i in async_generator()]

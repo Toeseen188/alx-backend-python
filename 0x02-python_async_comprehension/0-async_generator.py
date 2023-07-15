@@ -17,5 +17,5 @@ async def async_generator() -> typing.Generator[float, None, None]:
     and yield from random number
     """
     for i in range(10):
-        yield random.uniform(0, 10)
         await asyncio.sleep(1)
+        yield random.uniform(0, 10)

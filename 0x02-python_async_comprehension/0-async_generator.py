@@ -7,10 +7,11 @@ wait 1 second, then yield a random number between 0
 and 10. Use the random module.
 """
 import random
+import typing
 import asyncio
 
 
-async def async_generator():
+async def async_generator() -> typing.Generator[float, None, None]:
     """
     a function that takes no arg
     and yield from random number
